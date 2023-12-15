@@ -1,0 +1,171 @@
+rules:
+  - rule: Say bye when the user wants to end the conversation
+    steps:
+      - intent: bye
+      - action: utter_bye
+
+  - rule: Greet the user when they start a conversation
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Express gratitude when the user thanks the bot
+    steps:
+      - intent: gratitude
+      - action: utter_gratitude
+
+  - rule: Acknowledge affirmative responses
+    steps:
+      - intent: affirmative
+      - action: utter_affirmative
+
+  - rule: Respond to denial or negative statements
+    steps:
+      - intent: deny
+      - action: utter_deny
+
+  - rule: Respond to happy expressions
+    steps:
+      - intent: happy
+      - action: utter_happy
+
+  - rule: Address sad or empathetic statements
+    steps:
+      - intent: sad
+      - action: utter_sad
+
+  - rule: Respond politely to user queries or statements
+    steps:
+      - intent: politeness
+      - action: utter_politeness
+
+  - rule: Acknowledge friendly interactions
+    steps:
+      - intent: friendly
+      - action: utter_friendly
+
+  - rule: Respond to requests for information
+    steps:
+      - intent: info
+      - action: utter_info
+
+  - rule: Handle user requests
+    steps:
+      - intent: request
+      - action: utter_request
+
+  - rule: Respond to inquiries about well-being
+    steps:
+      - intent: how_are_you
+      - action: utter_how_are_you
+
+  - rule: Handle general questions or uncertainties
+    steps:
+      - intent: question
+      - action: utter_question
+
+  - rule: Provide predictions or speculative responses
+    steps:
+      - intent: prediction
+      - action: utter_prediction
+
+  - rule: Address user complaints or negative feedback
+    steps:
+      - intent: complain
+      - action: utter_complain
+
+  - rule: Respond to blessings or positive sentiments
+    steps:
+      - intent: blessing
+      - action: utter_blessing
+
+
+  - rule: Acknowledge received information or statements
+    steps:
+      - intent: inform
+      - action: utter_inform
+
+  - rule: Ask about user hobbies
+    steps:
+      - intent: ask_hobbies
+      - action: utter_ask_hobbies
+
+  - rule: Share news or interesting information
+    steps:
+      - intent: share_news
+      - action: utter_share_news
+
+  - rule: Ask for opinions or viewpoints
+    steps:
+      - intent: ask_opinion
+      - action: utter_ask_opinion
+
+  - rule: Engage in conversation about work or school
+    steps:
+      - intent: talk_work_school
+      - action: utter_talk_work_school
+
+  - rule: Provide recommendations
+    steps:
+      - intent: recommendations
+      - action: utter_recommendations
+
+  - rule: Acknowledge expressions of emotions
+    steps:
+      - intent: express_emotion
+      - action: utter_express_emotion
+
+  - rule: Agree or disagree gracefully with user statements
+    steps:
+      - intent: agree_disagree
+      - action: utter_agree_disagree
+
+  - rule: Handle clarification requests
+    steps:
+      - intent: clarification
+      - action: utter_clarification
+
+  - rule: Engage in humor or share jokes
+    steps:
+      - intent: jokes_humor
+      - action: utter_jokes_humor
+
+  - rule: Assist with location inquiries
+    steps:
+      - intent: location_inquiry
+      - action: utter_location_inquiry
+
+  - rule: Provide time and date information
+    steps:
+      - intent: time_date
+      - action: utter_time_date
+
+  - rule: Handle personal preferences inquiries
+    steps:
+      - intent: personal_preferences
+      - action: utter_personal_preferences
+
+  - rule: Respond to assistance requests
+    steps:
+      - intent: assistance_requests
+      - action: utter_assistance_requests
+
+  - rule: Detect and respond to sarcasm
+    steps:
+      - intent: sarcasm_detection
+      - action: utter_sarcasm_detection
+
+  - rule: Offer proactive suggestions
+    steps:
+      - intent: proactive_suggestions
+      - action: utter_proactive_suggestions
+
+  - rule: Address product or service inquiries
+    steps:
+      - intent: product_service_inquiry
+      - action: utter_product_service_inquiry
+
+  - rule: Respond to feedback or reviews
+    steps:
+      - intent: feedback_reviews
+      - action: utter_feedback_reviews

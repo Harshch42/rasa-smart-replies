@@ -1,0 +1,182 @@
+intents:
+  - bye
+  - greet
+  - gratitude
+  - affirmative
+  - deny
+  - happy
+  - sad
+  - politeness
+  - friendly
+  - info
+  - request
+  - how_are_you
+  - question
+  - prediction
+  - complain
+  - blessing
+  - inform
+  - ask_hobbies
+  - share_news
+  - ask_opinion
+  - talk_work_school
+  - recommendations
+  - express_emotion
+  - agree_disagree
+  - clarification
+  - jokes_humor
+  - location_inquiry
+  - time_date
+  - personal_preferences
+  - assistance_requests
+  - sarcasm_detection
+  - proactive_suggestions
+  - product_service_inquiry
+  - feedback_reviews
+
+
+responses:
+  utter_bye:
+    - text: "good bye"
+    - text: "see you again"
+    - text: "bye bye"
+    - text: "bye :)"
+
+  utter_greet:
+    - text: "hi"
+    - text: "hi there"
+    - text: "greetings"
+    - text: "yo what's up"
+
+  utter_gratitude:
+    - text: "you're welcome"
+    - text: "Thank you too"
+    - text: "glad to help you"
+
+  utter_affirmative:
+    - text: "Good to know that"
+    - text: "okay"
+    - text: "oh"
+
+  utter_deny:
+    - text: "oh"
+    - text: "hmmm"
+    - text: "i see"
+
+  utter_happy:
+    - text: "glad to hear that"
+    - text: "Awesome cool"
+    - text: "nice"
+
+  utter_sad:
+    - text: "i am sorry"
+    - text: "how can i help you?"
+
+  utter_politeness:
+    - text: "yes, thanks"
+    - text: "yes how are you"
+
+  utter_friendly:
+    - text: "likewise"
+    - text: "nice"
+    - text: "yeah"
+
+  utter_info:
+    - text: "oh"
+    - text: "hmmm"
+    - text: "i see"
+    - text: "let me take a look"
+    - text: "sounds interesting"
+
+  utter_request:
+    - text: "sure"
+    - text: "will do gladly"
+    - text: "let me look into it"
+
+  utter_how_are_you:
+    - text: "awesome thanks"
+    - text: "I am good. how are you"
+    - text: "great, wbu?"
+
+  utter_question:
+    - text: "i don't know"
+    - text: "i am not sure"
+    - text: "i'll have to see"
+
+  utter_prediction:
+    - text: "hmmm"
+    - text: "maybe"
+    - text: "let see"
+
+  utter_complain:
+    - text: "that's bad"
+    - text: "sorry to hear that"
+
+  utter_blessing:
+    - text: "Thanks a ton"
+    - text: "thank you so much"
+    - text: "thanks"
+    
+
+  utter_inform:
+    - text: "That's interesting to know."
+    - text: "Thanks for sharing that information."
+    - text: "I appreciate you letting me know."
+
+  utter_ask_hobbies:
+    - text: "What are your hobbies?"
+    - text: "Do you have any hobbies you're passionate about?"
+
+  utter_share_news:
+    - text: "Have you heard about [recent news]? It's fascinating!"
+    - text: "I read something interesting recently. Want to know about it?"
+
+  utter_ask_opinion:
+    - text: "What's your take on this topic?"
+    - text: "I'm curious, what do you think about [subject]?"
+
+  utter_talk_work_school:
+    - text: "How's work/school going for you?"
+    - text: "Busy with work/school lately?"
+
+  utter_recommendations:
+    - text: "I highly recommend checking out [book/movie/TV show]."
+    - text: "Looking for recommendations? Try [activity/place/product]."
+
+  utter_express_emotion:
+    - text: "It's okay to feel that way."
+    - text: "Feelings are valid. How can I support you?"
+
+  utter_agree_disagree:
+    - text: "I can see why you'd think that."
+    - text: "That's an interesting perspective. I might have a different view."
+
+  utter_clarification:
+    - text: "I'm sorry, I didn't catch that. Could you please elaborate?"
+
+  utter_jokes_humor:
+    - text: "Why don't skeletons fight each other? They don't have the guts!"
+
+  utter_location_inquiry:
+    - text: "I can help you find locations. Where are you looking to go?"
+
+  utter_time_date:
+    - text: "The current time is [current_time]."
+
+  utter_personal_preferences:
+    - text: "What are your preferences? I'm here to assist."
+
+  utter_assistance_requests:
+    - text: "How may I assist you?"
+
+  utter_sarcasm_detection:
+    - text: "Are you being sarcastic or serious?"
+
+  utter_proactive_suggestions:
+    - text: "Here's a suggestion that might help."
+
+  utter_product_service_inquiry:
+    - text: "What specific information do you need about our products or services?"
+
+  utter_feedback_reviews:
+    - text: "Your feedback is valuable to us. Please share your thoughts."

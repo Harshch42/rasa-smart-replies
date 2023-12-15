@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Suggestions</title>
+</head>
+<body>
+    <h1>Get Suggestions</h1>
+    
+    <label for="userMessage">Enter Message:</label>
+    <input type="text" id="userMessage" placeholder="Type your message here"><br><br>
+
+    <button onclick="getSuggestions()">Get Suggestions</button><br><br>
+
+    <h2>Suggestions:</h2>
+    <div id="suggestions"></div>
+
+    <script>
+        function getSuggestions() {
+            var userMessage = document.getElementById('userMessage').value;
+            
+            // URL of your Flask API endpoint
+            var url = 'http://127.0.0.1:5000/get_suggestions';
+
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ user_message: userMessage })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                displaySuggestions(data.suggestions);
+            })
+            .catch(error => {
+                console.error('There was an error with the fetch operation:', error);
+            });
+        }
+
+        function displaySuggestions(suggestions) {
+            var suggestionsDiv = document.getElementById('suggestions');
+            suggestionsDiv.innerHTML = '';
+        
+            if (suggestions.length === 0) {
+                suggestionsDiv.innerHTML = 'No suggestions found.';
+            } else {
+                var list = document.createElement('ul');
+                suggestions.forEach(function (response) {
+                    var listItem = document.createElement('li');
+                    var responseText = response['text']; // Extracting the text from the response object
+                    listItem.textContent = responseText;
+                    list.appendChild(listItem);
+                });
+                suggestionsDiv.appendChild(list);
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>

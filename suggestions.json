@@ -1,0 +1,174 @@
+{
+    "bye": {
+        "first": ["Good bye", "See you again", "Bye bye", "Bye :)"],
+        "second": ["Catch you later", "Take care", "See you around, bye"],
+        "third": ["Have a nice day", "We'll speak soon", ":D :D"]
+    },
+    "greet": {
+        "first": ["Hi", "Hi there", "Greetings", "Yo what's up"],
+        "second": ["Hey", "Hi, how can I help you?"],
+        "third": ["Hello", "Hello, how are you?"]
+    },
+    "gratitude": {
+        "first": ["You're welcome", "Thank you too", "Glad to help you"],
+        "second": ["No problem", "Sure", "Bye"],
+        "third": ["Mine pleasure", "Welcome", ":D :)"]
+    },
+    "affirmative": {
+        "first": ["Good to know that", "Okay", "Oh"],
+        "second": ["Hmmm", "Sounds good", "Why is that?"],
+        "third": ["I see", "Good for you"]
+    },
+    "deny": {
+        "first": ["Oh", "Hmmm", "I see"],
+        "second": ["Okay", "Why is that?"],
+        "third": ["That's bad", "You should try"]
+    },
+    "happy": {
+        "first": ["Glad to hear that", "Awesome cool", "Nice"],
+        "second": ["Me too", "Amazing", "Keep smiling"],
+        "third": ["Good for you", "Keep it up", "Okay"]
+    },
+    "sad": {
+        "first": ["I am sorry", "How can I help you?"],
+        "second": ["Lets work on it", "Too bad"],
+        "third": ["It happens", "Don't worry"]
+    },
+    "politeness": {
+        "first": ["Yes, thanks", "Yes how are you"],
+        "second": ["No but lets continue", "Yeah"],
+        "third": ["I am not sure", "Yup"]
+    },
+    "friendly": {
+        "first": ["Likewise", "Nice", "Yeah"],
+        "second": ["Same here", "Me too"],
+        "third": ["Good to know", "Okay"]
+    },
+    "info": {
+        "first": ["Oh", "Hmmm", "I see", "Let me take a look", "Sounds interesting"],
+        "second": ["I am not sure", "How is that helpful?", "I am not interested"],
+        "third": ["Carry on", "Go ahead"]
+    },
+    "request": {
+        "first": ["Sure", "Will do gladly", "Let me look into it"],
+        "second": ["I'll try", "I am not sure", "You are asking too much"],
+        "third": ["Lets see", "Will try my best", "No way", "Can't do it sorry"]
+    },
+    "how_are_you": {
+        "first": ["Awesome thanks", "I am good. How are you", "Great, wbu?"],
+        "second": ["Not good", "Not so good"],
+        "third": ["I am not sure", "Yes I am doing well"]
+    },
+    "question": {
+        "first": ["I don't know", "I am not sure", "I'll have to see"],
+        "second": ["Yes sometimes", "Yes always", "Sure"],
+        "third": ["Hmmm", "Let see", "It's tough to decide", "Not now", "Never"]
+    },
+    "prediction": {
+        "first": ["Hmmm", "Maybe", "Let see"],
+        "second": ["No way", "Never", "Disagree"],
+        "third": ["Okay", "We can't conclude"]
+    },
+    "complain": {
+        "first": ["That's bad", "Sorry to hear that"],
+        "second": ["Be faithful", "Everything is fine"],
+        "third": ["Everything will be good", "Agree"]
+    },
+    "blessing": {
+        "first": ["Thanks a ton", "Thank you so much", "Thanks"],
+        "second": ["Same to you", "Tnaks, you too"],
+        "third": ["I am not interested", "Thanks, but doesn't matter"]
+    },
+    "inform": {
+        "first": ["Updated response 1", "Updated response 2", "Updated response 3"],
+        "second": ["Updated response 4", "Updated response 5"],
+        "third": ["Updated response 6", "Updated response 7"]
+    },
+    "ask_hobbies": {
+        "first": ["New response 1", "New response 2"],
+        "second": ["New response 3", "New response 4"],
+        "third": ["New response 5", "New response 6"]
+    },
+	"share_news": {
+		"first": ["Here's an update!", "Check this out!", "New update alert!"],
+		"second": ["What's your opinion?", "What do you think?", "Thoughts on this?"],
+		"third": ["Interested in work/school?", "Let's discuss work/school", "Work/school talk?"]
+	},
+	"ask_opinion": {
+		"first": ["Recommendation for you:", "Check this out!", "I suggest"],
+		"second": ["Feeling emotional?", "Express yourself", "Share your emotions"],
+		"third": ["Agree or disagree?", "Your opinion?", "What do you think?"]
+	},
+	"talk_work_school": {
+		"first": ["Need clarification?", "Got any queries?", "Confused?"],
+		"second": ["Share a laugh!", "Joke time!", "Humor incoming!"],
+		"third": ["Looking for something?", "Need directions?", "Where are you?"]
+	},
+	"recommendations": {
+		"first": ["Time check!", "What's the time?", "Date and time please"],
+		"second": ["Preferences?", "Personal choices?", "What do you prefer?"],
+		"third": ["Need help?", "Assistance needed?", "Can I assist you?"]
+	},
+	"express_emotion": {
+		"first": ["Recognizing sarcasm?", "Detecting sarcasm?", "Are you sarcastic?"],
+		"second": ["Suggesting ahead!", "Let me suggest", "Have a suggestion"],
+		"third": ["Product inquiry?", "Looking for something?", "Feedback time!"]
+	},
+	"agree_disagree": {
+		"first": ["Latest news?", "Hot topic alert!", "Newsworthy update!"],
+		"second": ["Opinion?", "Got an opinion?", "What's your view?"],
+		"third": ["At work/school?", "Busy with work/school?", "Productive day?"]
+	},
+	"clarification": {
+		"first": ["Humor break!", "Need a laugh?", "Joke of the day!"],
+		"second": ["Seeking location?", "Location query?", "Where are you?"],
+		"third": ["Time check!", "Date & time please", "What's the time now?"]
+	},
+	"jokes_humor": {
+		"first": ["Your preferences?", "What do you like?", "Personal choices?"],
+		"second": ["Request for help?", "Need assistance?", "Can I help?"],
+		"third": ["Recognizing sarcasm?", "Detecting sarcasm?", "Are you sarcastic?"]
+	},
+	"location_inquiry": {
+		"first": ["Suggestion time!", "Have a suggestion", "Let me suggest"],
+		"second": ["Product inquiry?", "Looking for something?", "Feedback time!"],
+		"third": ["Any reviews?", "Want to review?", "Feedback please!"]
+	},
+	"time_date": {
+		"first": ["Shortened message", "Time check", "Date & time"],
+		"second": ["Another brief message", "Time?", "Date and time?"],
+		"third": ["Concise message", "What time?", "Current date & time?"]
+	},
+	"personal_preferences": {
+		"first": ["Short message", "Preferences?", "Your choices?"],
+		"second": ["Brevity here", "What do you like?", "Your preferences?"],
+		"third": ["Conciseness", "Any preferences?", "What do you prefer?"]
+	},
+	"assistance_requests": {
+		"first": ["Short request", "Need help?", "Requesting assistance"],
+		"second": ["Quick message", "Need support?", "Can you help?"],
+		"third": ["Concise ask", "Assistance?", "Can you assist?"]
+	},
+	"sarcasm_detection": {
+		"first": ["Recognizing sarcasm?", "Detecting sarcasm?", "Are you sarcastic?"],
+		"second": ["Getting sassy?", "Sarcasm ahead?", "Being sarcastic?"],
+		"third": ["Feeling sarcastic?", "Sarcasm detected?", "Are you sarcastic?"]
+	},
+	"proactive_suggestions": {
+		"first": ["Suggesting ahead!", "Let me suggest", "Have a suggestion"],
+		"second": ["Offering advice", "Need a tip?", "Can I suggest?"],
+		"third": ["Providing tips", "Here's a suggestion", "Let me advise"]
+	},
+	"product_service_inquiry": {
+		"first": ["Product query?", "Need info?", "Product details?"],
+		"second": ["Service inquiry", "What's offered?", "Info on service?"],
+		"third": ["Service or product?", "Info needed?", "Looking for details?"]
+	},
+	"feedback_reviews": {
+		"first": ["Feedback time!", "Have thoughts?", "Opinions needed"],
+		"second": ["Leave a review?", "Feedback?", "Thoughts please"],
+		"third": ["Offer feedback", "Give a review", "Provide your thoughts"]
+	}
+	
+
+}

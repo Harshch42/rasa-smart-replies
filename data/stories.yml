@@ -1,0 +1,158 @@
+stories:
+  - story: Greet and Say Goodbye
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: bye
+      - action: utter_bye
+
+  - story: Express Gratitude
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: gratitude
+      - action: utter_gratitude
+
+  - story: Respond to Affirmative
+    steps:
+      - intent: affirmative
+      - action: utter_affirmative
+
+  - story: Respond to Denial
+    steps:
+      - intent: deny
+      - action: utter_deny
+
+  - story: Express Happiness
+    steps:
+      - intent: happy
+      - action: utter_happy
+
+  - story: Express Sadness
+    steps:
+      - intent: sad
+      - action: utter_sad
+
+  - story: Politeness Exchange
+    steps:
+      - intent: politeness
+      - action: utter_politeness
+
+  - story: Friendly Response
+    steps:
+      - intent: friendly
+      - action: utter_friendly
+
+  - story: Respond to Information
+    steps:
+      - intent: info
+      - action: utter_info
+
+  - story: Respond to Request
+    steps:
+      - intent: request
+      - action: utter_request
+
+  - story: Respond to "How are you?"
+    steps:
+      - intent: how_are_you
+      - action: utter_how_are_you
+
+  - story: Respond to Question
+    steps:
+      - intent: question
+      - action: utter_question
+
+  - story: Make a Prediction
+    steps:
+      - intent: prediction
+      - action: utter_prediction
+
+  - story: Handle Complaints
+    steps:
+      - intent: complain
+      - action: utter_complain
+
+  - story: Send a Blessing
+    steps:
+      - intent: blessing
+      - action: utter_blessing
+
+
+
+  - story: Handle Personal Preferences and Assist Requests
+    steps:
+      - intent: personal_preferences
+      - action: utter_personal_preferences
+      - intent: assistance_requests
+      - action: utter_assistance_requests
+
+  - story: Address Sarcasm and Proactive Suggestions
+    steps:
+      - intent: sarcasm_detection
+      - action: utter_sarcasm_detection
+      - intent: proactive_suggestions
+      - action: utter_proactive_suggestions
+
+  - story: Respond to Product/Service Inquiry and Feedback Reviews
+    steps:
+      - intent: product_service_inquiry
+      - action: utter_product_service_inquiry
+      - intent: feedback_reviews
+      - action: utter_feedback_reviews
+      
+  - story: Handle Time/Date Inquiry and Say Goodbye
+    steps:
+      - intent: time_date
+      - action: utter_time_date
+      - intent: bye
+      - action: utter_bye
+
+  - story: Respond to Clarification and Proactive Suggestions
+    steps:
+      - intent: clarification
+      - action: utter_clarification
+      - intent: proactive_suggestions
+      - action: utter_proactive_suggestions
+
+  - story: Respond to Jokes/Humor and Express Emotion
+    steps:
+      - intent: jokes_humor
+      - action: utter_jokes_humor
+      - intent: express_emotion
+      - action: utter_express_emotion
+
+  - story: Engage in a Polite Conversation and Address Friendly Interaction
+    steps:
+      - intent: politeness
+      - action: utter_politeness
+      - intent: friendly
+      - action: utter_friendly
+
+  - story: Respond to Location Inquiry and Share News
+    steps:
+      - intent: location_inquiry
+      - action: utter_location_inquiry
+      - intent: share_news
+      - action: utter_share_news
+
+  - story: Handle Work/School Talk and Predictions
+    steps:
+      - intent: talk_work_school
+      - action: utter_talk_work_school
+      - intent: prediction
+      - action: utter_prediction
+
+  - story: Provide Assistance and Respond to Feedback/Reviews
+    steps:
+      - intent: assistance_requests
+      - action: utter_assistance_requests
+      - intent: feedback_reviews
+      - action: utter_feedback_reviews
+
+  - story: Handle Product/Service Inquiry and Ask for Opinions
+    steps:
+      - intent: product_service_inquiry
+      - action: utter_product_service_inquiry
+      - intent: ask_opinion
+      - action: utter_ask_opinion
